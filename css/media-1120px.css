@@ -1,0 +1,110 @@
+@media screen and (min-width: 1120px) {
+    .header-list__item:nth-child(1),
+    .header-list__item:nth-child(2),
+    .header-list__item:nth-child(3),
+    .header-list__item:nth-child(4),
+    .header-list__item:nth-child(5),
+    .header-list__item:nth-child(6)::before {
+      display: none;
+    }
+  
+    .main {
+      margin: 0px;
+    }
+  
+    .side-navigation__main-content {
+      margin-top: 112px;
+    }
+
+    .side-navigation__main {
+      margin-top: 112px;
+    }
+  
+    .content-res__1120 {
+      display: inline;
+    }
+  
+    .header-list {
+      padding-top: 30px;
+      justify-content: right;
+      max-width: 1120px;
+    }
+
+    .header-list__item_text {
+      display: inherit;
+      font-family: 'TT Lakes Medium';
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+    }
+  
+    .header-list__label {
+      display: flex;
+      flex-direction: row-reverse;
+      cursor: pointer;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .header-list__label > span {
+      margin: 10px;
+    }
+
+    .header-list__label:hover > span {
+      color:red
+    }
+  
+    .header {
+      height: 0;
+      border: none;
+    }
+  
+    .sign {
+      width: 530px;
+      height: 307px;
+      margin-bottom: 0;
+    }
+  
+    .nav-list {
+      flex-wrap: wrap;
+    }
+  
+    .nav-container {
+      margin-left: 32px;
+      padding-top: 8px;
+    }
+  
+    .content-wrapper {
+      margin-left: 18px;
+      margin-top: 16px;
+    }
+  
+    .content {
+      margin-top: 0;
+      font-size: 14px;
+    }
+  
+    .content-header {
+      margin-left: 32px;
+    }
+  
+    .content-header::before {
+      content: "";
+      position: absolute;
+      left: -32px;
+      top: 0px;
+      height: 40px;
+      width: 4px;
+      background-color: #41f6d7;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+  
+    .header {
+      position: relative;
+    }
+
+    .brand-types__item {
+      width: 20%;
+    }
+  }

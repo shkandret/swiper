@@ -1,0 +1,120 @@
+@media screen and (min-width: 768px) {
+    .header-list__item_text {
+      display: none;
+    }
+  
+    .content-res__1120 {
+      display: none;
+    }
+
+    .brand-types__slider {
+      display: none
+    }
+
+    #slider__button {
+      display: flex;
+    }
+  
+    .main {
+      margin-top: 112px;
+    }
+  
+    .header-list__item:nth-child(3),
+    .header-list__item:nth-child(4),
+    .header-list__item:nth-child(5),
+    .header-list__item:nth-child(6),
+    .header-list__item:nth-child(7) {
+      display: inherit;
+    }
+  
+    .header-list__item:nth-child(2) {
+      flex-grow: 1;
+    }
+  
+    .header-list__item:nth-child(1) {
+      margin-right: 40px;
+      position: relative;
+    }
+  
+    .header-list__item:nth-child(3),
+    .header-list__item:nth-child(4),
+    .header-list__item:nth-child(5) {
+      position: relative;
+      left: -30px;
+    }
+  
+    .header-list__item:nth-child(1)::before {
+      content: "";
+      position: absolute;
+      border-left: 2px solid #eaeaea;
+      right: -30px;
+      top: 0px;
+      height: 40px;
+      border-radius: 35%/5%;
+    }
+  
+    .content-wrapper {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 48px;
+    }
+  
+    .sign {
+      width: 100%;
+      height: 100%;
+      border-radius: 6px;
+      margin-bottom: 0;
+    }
+  
+    .content-res__768 {
+      display: inherit;
+    }
+  
+    .content-wrapper {
+      margin-top: 32px;
+      margin-left: 10px;
+    }
+  
+    .content {
+      margin-top: 0;
+      font-size: 14px;
+    }
+  
+    .nav-container {
+      margin-left: 24px;
+      padding-top: 32px;
+    }
+  
+    .content-header {
+      margin-left: 24px;
+    }
+  
+    .content-header::before {
+      content: "";
+      position: absolute;
+      left: -24px;
+      top: 0px;
+      height: 40px;
+      width: 4px;
+      background-color: #41f6d7;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+
+    .brand-types {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+    
+    .brand-types__item {
+      width: 26%;
+      margin-right: 24px;
+      margin-left: 16px;
+      margin-bottom: 16px;
+    }
+
+    .content-block__spoiler {
+      height: 160px;
+      overflow: hidden;
+    }
+  }
