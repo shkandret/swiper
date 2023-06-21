@@ -25,14 +25,22 @@ function brandSliderDestroy () {
   }
 }
 
-$(window).on('load resize', function () {
-  let windowWidth = $(this).innerWidth();
-  if (windowWidth <= 767) {
+window.onload = () => {
+  if (window.matchMedia('(max-width: 767px)').matches) {
+    brandSliderInit()
+  } else {
+    brandSliderDestroy()
+  }
+};
+
+window.addEventListener('resize', function(event){
+  if (window.innerWidth < 767) {
     brandSliderInit()
   } else {
     brandSliderDestroy()
   }
 });
+
 
 
 // click events
